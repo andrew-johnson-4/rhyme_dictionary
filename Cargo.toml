@@ -7,7 +7,7 @@ description = "A Rhyme Dictionary with an MIT LICENSE"
 edition = "2018"
 readme = "README.md"
 repository = "https://github.com/andrew-johnson-4/rhyme_dictionary"
-keywords = ["natural","language","processing","rhyme","dictionary","IPA"]
+keywords = ["natural","language","rhyme","dictionary","IPA"]
 
 [[bin]]
 name = "download"
