@@ -1,0 +1,22 @@
+[package]
+name = "rhyme_dictionary"
+version = "0.0.1"
+authors = ["Andrew <andrew@subarctic.org>"]
+license = "MIT OR Apache-2.0"
+description = "A Rhyme Dictionary with an MIT LICENSE"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/andrew-johnson-4/rhyme_dictionary"
+keywords = ["natural","language","processing","rhyme","dictionary","IPA"]
+
+[[bin]]
+name = "download"
+path = "src/bin_download.rs"
+
+[[bin]]
+name = "compile"
+path = "src/bin_compile.rs"
+
+[[bin]]
+name = "lookup"
+path = "src/bin_lookup.rs"
