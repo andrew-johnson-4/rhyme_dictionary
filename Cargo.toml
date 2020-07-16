@@ -1,6 +1,6 @@
 [package]
 name = "rhyme_dictionary"
-version = "0.0.2"
+version = "0.0.3"
 authors = ["Andrew <andrew@subarctic.org>"]
 license = "MIT OR Apache-2.0"
 description = "A Rhyme Dictionary with an MIT LICENSE"
