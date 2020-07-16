@@ -1,6 +1,6 @@
 [package]
 name = "rhyme_dictionary"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Andrew <andrew@subarctic.org>"]
 license = "MIT OR Apache-2.0"
 description = "A Rhyme Dictionary with an MIT LICENSE"
@@ -8,6 +8,14 @@ edition = "2018"
 readme = "README.md"
 repository = "https://github.com/andrew-johnson-4/rhyme_dictionary"
 keywords = ["natural","language","rhyme","dictionary","IPA"]
+
+[dependencies]
+error-chain = "0.12"
+reqwest = "0.10"
+
+[dependencies.tokio]
+version = "0.2"
+features = ["macros"]
 
 [[bin]]
 name = "download"
